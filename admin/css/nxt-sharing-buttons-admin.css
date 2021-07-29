@@ -2,3 +2,23 @@
  * All of the CSS for your admin-specific functionality should be
  * included in this file.
  */
+
+.nxt_sharing_buttons {
+  margin-top: 2rem;
+  text-align: right;
+}
+.nxt_sharing_buttons a {
+  border-radius: 50%;
+  border: 1px solid #555;
+  color: #555;
+  font-family: "EtModules";
+  font-size: 1.125rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  transition: all 300ms ease;
+}
+.nxt_sharing_buttons a:hover {
+  background-color: #5EC0EF;
+  border-color: #5EC0EF;
+  color: #fff;
+}
